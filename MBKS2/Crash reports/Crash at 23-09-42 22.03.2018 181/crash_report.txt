@@ -1,0 +1,28 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+vuln23.exe:00ce1600 or [eax-0x38fffff5],bh from thread 22016 caused access violation
+when attempting to write to 0xc7000bd8
+
+CONTEXT DUMP
+  EIP: 00ce1600 or [eax-0x38fffff5],bh
+  EAX: 00000bcd (      3021) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 758940fd (1971929341) -> N/A
+  EDX: 00000000 (         0) -> N/A
+  EDI: 00bffb60 (  12581728) -> PP/}quPTtP0t~wJlwPs%Peus%PjmwRGJlwnwP (stack)
+  ESI: 00ce12a0 (  13505184) -> N/A
+  EBP: 48484848 (1212696648) -> N/A
+  ESP: 00bfed00 (  12578048) -> NAegbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb (stack)
+  +00: 00cea14e (  13541710) -> N/A
+  +04: 02e5419e (  48578974) -> HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH (heap)
+  +08: 00000bb8 (      3000) -> N/A
+  +0c: 02ff0000 (  50266112) -> t+ (heap)
+  +10: 00000080 (       128) -> N/A
+  +14: 00670065 (   6750309) -> N/A
+
+disasm around:
+
+SEH unwind:
+	00bffc0c -> ntdll.dll:776d6a50 mov edi,edi
+	ffffffff -> ntdll.dll:776e9ec1 nop
+

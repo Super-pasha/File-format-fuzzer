@@ -1,0 +1,29 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+[INVALID]:48484848 Unable to disassemble at 48484848 from thread 14220 caused access violation
+when attempting to read from 0x48484848
+
+CONTEXT DUMP
+  EIP: 48484848 Unable to disassemble at 48484848
+  EAX: 00000bd1 (      3025) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 758940fd (1971929341) -> N/A
+  EDX: 00000000 (         0) -> N/A
+  EDI: 0088fad0 (   8977104) -> @OP/}qu@O4Tt@O0t",|wJlw@O@Oeu@PjmwX6GJlwnw@O (stack)
+  ESI: 00ce12a0 (  13505184) -> N/A
+  EBP: 48484848 (1212696648) -> N/A
+  ESP: 0088ec70 (   8973424) -> A@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb (stack)
+  +00: 00cea100 (  13541632) -> N/A
+  +04: 00bb419e (  12272030) -> HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH (heap)
+  +08: 00000bb8 (      3000) -> N/A
+  +0c: 00000040 (        64) -> N/A
+  +10: 00000000 (         0) -> N/A
+  +14: 009a0000 (  10092544) -> Ivb@`@v  H`hUH (heap)
+
+disasm around:
+	0x48484848 Unable to disassemble
+
+SEH unwind:
+	0088fb84 -> ntdll.dll:776d6a50 mov edi,edi
+	ffffffff -> ntdll.dll:776e9eaa nop
+

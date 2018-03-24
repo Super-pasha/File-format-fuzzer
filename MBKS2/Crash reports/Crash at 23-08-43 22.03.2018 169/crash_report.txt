@@ -1,0 +1,49 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+vuln23.exe:00ce162e leave from thread 6432 caused access violation
+when attempting to read from 0x00004848
+
+CONTEXT DUMP
+  EIP: 00ce162e leave
+  EAX: 00000bcb (      3019) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 758940fd (1971929341) -> N/A
+  EDX: 00000000 (         0) -> N/A
+  EDI: 009ffad0 (  10484432) ->  P/}qu 4Tt 0tB|wJlw >y eu>y@PjmwzGJlwnw  (stack)
+  ESI: 00ce12a0 (  13505184) -> N/A
+  EBP: 00004848 (     18504) -> N/A
+  ESP: 009fec70 (  10480752) -> NA@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb (stack)
+  +00: 00cea14e (  13541710) -> N/A
+  +04: 02ec419e (  49037726) -> HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH (heap)
+  +08: 00000bb8 (      3000) -> N/A
+  +0c: 00000040 (        64) -> N/A
+  +10: 00000000 (         0) -> N/A
+  +14: 02ee0000 (  49152000) -> Pb@`@  H`hUHs;n (heap)
+
+disasm around:
+	0x00ce15f7 sub esp,0xbd8
+	0x00ce15fd mov dword [esp+0x8],0xbb8
+	0x00ce1605 mov dword [esp+0x4],0x62
+	0x00ce160d lea eax,[ebp-0xbc0]
+	0x00ce1613 mov [esp],eax
+	0x00ce1616 call 0xce8318
+	0x00ce161b mov eax,[ebp+0x8]
+	0x00ce161e mov [esp+0x4],eax
+	0x00ce1622 mov dword [esp],0xcea14e
+	0x00ce1629 call 0xce158d
+	0x00ce162e leave
+	0x00ce162f ret
+	0x00ce1630 push ebp
+	0x00ce1631 mov ebp,esp
+	0x00ce1633 sub esp,0x28
+	0x00ce1636 mov dword [esp+0x4],0xcea151
+	0x00ce163e mov eax,[ebp+0x8]
+	0x00ce1641 mov [esp],eax
+	0x00ce1644 call 0xce8380
+	0x00ce1649 mov [ebp-0xc],eax
+	0x00ce164c cmp dword [ebp-0xc],0x0
+
+SEH unwind:
+	009ffb84 -> ntdll.dll:776d6a50 mov edi,edi
+	ffffffff -> ntdll.dll:776e9ebc nop
+

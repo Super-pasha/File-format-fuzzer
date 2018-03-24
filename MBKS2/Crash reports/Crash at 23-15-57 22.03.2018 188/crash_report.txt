@@ -1,0 +1,29 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+[INVALID]:48484848 Unable to disassemble at 48484848 from thread 11696 caused access violation
+when attempting to read from 0x48484848
+
+CONTEXT DUMP
+  EIP: 48484848 Unable to disassemble at 48484848
+  EAX: 00000bd5 (      3029) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 758940fd (1971929341) -> N/A
+  EDX: 00000000 (         0) -> N/A
+  EDI: 0146fe00 (  21429760) -> 0(FP/(F}qu0\FTt00t5FwJlw0n_0Feun_hFFFPjmwyk)FGJlwnw0 (stack)
+  ESI: 00ce12a0 (  13505184) -> N/A
+  EBP: 48484848 (1212696648) -> N/A
+  ESP: 0146efa0 (  21426080) -> HHHH (stack)
+  +00: 48484848 (1212696648) -> N/A
+  +04: 03ef4100 (  66011392) -> 4C{k[k[k[D[/startHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH (heap)
+  +08: 00000bb8 (      3000) -> N/A
+  +0c: 03700000 (  57671680) -> biZpppppppb@`@bZ  Hpppppp`phUppHpp (heap)
+  +10: 00000080 (       128) -> N/A
+  +14: 00670065 (   6750309) -> N/A
+
+disasm around:
+	0x48484848 Unable to disassemble
+
+SEH unwind:
+	0146feac -> ntdll.dll:776d6a50 mov edi,edi
+	ffffffff -> ntdll.dll:776e9edf nop
+

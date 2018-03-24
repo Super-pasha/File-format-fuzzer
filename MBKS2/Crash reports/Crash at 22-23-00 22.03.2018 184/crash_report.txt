@@ -1,0 +1,29 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+[INVALID]:62626262 Unable to disassemble at 62626262 from thread 6592 caused access violation
+when attempting to read from 0x62626262
+
+CONTEXT DUMP
+  EIP: 62626262 Unable to disassemble at 62626262
+  EAX: 00000bc9 (      3017) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 758940fd (1971929341) -> N/A
+  EDX: 00000000 (         0) -> N/A
+  EDI: 00effc10 (  15727632) -> `@P/@}qu`tTt`0tX+lwJlw``-`eu`-PjmwGJlwnw` (stack)
+  ESI: 00ce12a0 (  13505184) -> N/A
+  EBP: 62626262 (1650614882) -> N/A
+  ESP: 00eff908 (  15726856) -> bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb (stack)
+  +00: 62626262 (1650614882) -> N/A
+  +04: 62626262 (1650614882) -> N/A
+  +08: 62626262 (1650614882) -> N/A
+  +0c: 62626262 (1650614882) -> N/A
+  +10: 62626262 (1650614882) -> N/A
+  +14: 62626262 (1650614882) -> N/A
+
+disasm around:
+	0x62626262 Unable to disassemble
+
+SEH unwind:
+	00effcc4 -> ntdll.dll:776d6a50 mov edi,edi
+	ffffffff -> ntdll.dll:776e9ea8 nop
+
