@@ -2,6 +2,8 @@
 This is a simple file format fuzzer written on python.
 It uses PyDbg so this library must be installed before using this project.
 
+https://github.com/reider-roque/pydbg-pydasm-paimei
+
 In brief:
 
 1) Analyze files which have common format
