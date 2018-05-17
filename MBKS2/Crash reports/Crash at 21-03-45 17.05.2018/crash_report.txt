@@ -1,0 +1,4329 @@
+Exception code: EXCEPTION_ACCESS_VIOLATION
+
+[INVALID]:5a5a5a5a Unable to disassemble at 5a5a5a5a from thread 21316 caused access violation
+when attempting to write to 0x5a5a5a5a
+
+CONTEXT DUMP
+  EIP: 5a5a5a5a Unable to disassemble at 5a5a5a5a
+  EAX: 00000000 (         0) -> N/A
+  EBX: 00000000 (         0) -> N/A
+  ECX: 5a5a5a5a (1515870810) -> N/A
+  EDX: 776d9d70 (2003672432) -> N/A
+  EDI: 00000000 (         0) -> N/A
+  ESI: 00000000 (         0) -> N/A
+  EBP: 00d213e0 (  13767648) -> $mwLZZZZSkwLZZZZ2tyhxmdovanphzavmMlwZZZZZZZZ (stack)
+  ESP: 00d213c0 (  13767616) -> Rm (stack)
+  +00: 776d9d52 (2003672402) -> N/A
+  +04: 00d214c0 (  13767872) -> ZZZZZZZZ+S++pmwZZZZ (stack)
+  +08: 00f1fc84 (  15858820) -> ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzsrqfapigjsjjlaitjjqbfwafgdlqxlgsyajigrzqkmetbckzpflxgxvwypfhczgseyunjppiucvlsaoksnswnigrnqtmwvdcwsncdnpbaiiwnhoppgzfyqaiiudlgqmbcigrvgxwowvudgnskwnvgnjyinprgizfxdgczperfnwtlco (stack)
+  +0c: 00d21510 (  13767952) -> +S++pmwZZZZZZZZ#Fp+ (stack)
+  +10: 00d2144c (  13767756) -> tyhxmdovanphzavmMlwZZZZZZZZ (stack)
+  +14: 00d21984 (  13769092) -> 4pmwX$mwpZZZZpSkwpZZZZp2ypsdzojetleeyepjtyhxmdovanphzavmUM@lwppZZZZ (stack)
+
+disasm around:
+	0x5a5a5a5a Unable to disassemble
+
+stack unwind:
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	ntdll.dll:776d9d24
+	ntdll.dll:776c0c16
+	msvcrt.dll:757cbf52
+	msvcrt.dll:757ca948
+	msvcrt.dll:757c599b
+	msvcrt.dll:757c59e5
+	vuln23.exe:00d015dc
+
+SEH unwind:
+	00d21984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d21f34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d224e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d22a94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d23044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d235f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d23ba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d24154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d24704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d24cb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d25264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d25814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d25dc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d26374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d26924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d26ed4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d27484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d27a34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d27fe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d28594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d28b44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d290f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d296a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d29c54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2a204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2a7b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2ad64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2b314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2b8c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2be74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2c424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2c9d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2cf84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2d534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2dae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2e094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2e644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2ebf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2f1a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2f754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d2fd04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d302b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d30864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d30e14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d313c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d31974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d31f24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d324d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d32a84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d33034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d335e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d33b94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d34144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d346f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d34ca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d35254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d35804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d35db4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d36364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d36914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d36ec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d37474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d37a24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d37fd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d38584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d38b34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d390e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d39694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d39c44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3a1f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3a7a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3ad54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3b304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3b8b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3be64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3c414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3c9c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3cf74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3d524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3dad4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3e084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3e634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3ebe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3f194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3f744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d3fcf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d402a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d40854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d40e04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d413b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d41964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d41f14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d424c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d42a74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d43024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d435d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d43b84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d44134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d446e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d44c94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d45244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d457f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d45da4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d46354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d46904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d46eb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d47464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d47a14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d47fc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d48574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d48b24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d490d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d49684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d49c34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4a1e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4a794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4ad44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4b2f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4b8a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4be54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4c404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4c9b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4cf64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4d514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4dac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4e074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4e624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4ebd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4f184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4f734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d4fce4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d50294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d50844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d50df4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d513a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d51954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d51f04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d524b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d52a64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d53014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d535c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d53b74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d54124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d546d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d54c84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d55234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d557e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d55d94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d56344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d568f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d56ea4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d57454 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d57a04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d57fb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d58564 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d58b14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d590c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d59674 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d59c24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5a1d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5a784 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5ad34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5b2e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5b894 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5be44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5c3f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5c9a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5cf54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5d504 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5dab4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5e064 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5e614 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5ebc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5f174 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5f724 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d5fcd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d60284 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d60834 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d60de4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d61394 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d61944 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d61ef4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d624a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d62a54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d63004 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d635b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d63b64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d64114 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d646c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d64c74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d65224 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d657d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d65d84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d66334 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d668e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d66e94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d67444 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d679f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d67fa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d68554 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d68b04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d690b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d69664 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d69c14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6a1c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6a774 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6ad24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6b2d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6b884 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6be34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6c3e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6c994 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6cf44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6d4f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6daa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6e054 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6e604 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6ebb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6f164 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6f714 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d6fcc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d70274 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d70824 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d70dd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d71384 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d71934 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d71ee4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d72494 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d72a44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d72ff4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d735a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d73b54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d74104 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d746b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d74c64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d75214 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d757c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d75d74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d76324 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d768d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d76e84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d77434 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d779e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d77f94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d78544 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d78af4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d790a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d79654 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d79c04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7a1b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7a764 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7ad14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7b2c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7b874 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7be24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7c3d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7c984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7cf34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7d4e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7da94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7e044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7e5f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7eba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7f154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7f704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d7fcb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d80264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d80814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d80dc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d81374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d81924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d81ed4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d82484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d82a34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d82fe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d83594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d83b44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d840f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d846a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d84c54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d85204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d857b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d85d64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d86314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d868c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d86e74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d87424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d879d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d87f84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d88534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d88ae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d89094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d89644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d89bf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8a1a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8a754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8ad04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8b2b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8b864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8be14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8c3c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8c974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8cf24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8d4d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8da84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8e034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8e5e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8eb94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8f144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8f6f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d8fca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d90254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d90804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d90db4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d91364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d91914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d91ec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d92474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d92a24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d92fd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d93584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d93b34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d940e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d94694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d94c44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d951f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d957a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d95d54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d96304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d968b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d96e64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d97414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d979c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d97f74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d98524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d98ad4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d99084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d99634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d99be4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9a194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9a744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9acf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9b2a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9b854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9be04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9c3b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9c964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9cf14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9d4c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9da74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9e024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9e5d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9eb84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9f134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9f6e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00d9fc94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da0244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da07f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da0da4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da1354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da1904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da1eb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da2464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da2a14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da2fc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da3574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da3b24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da40d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da4684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da4c34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da51e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da5794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da5d44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da62f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da68a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da6e54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da7404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da79b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da7f64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da8514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da8ac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da9074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da9624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00da9bd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daa184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daa734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daace4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dab294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dab844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dabdf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dac3a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dac954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dacf04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dad4b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dada64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dae014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dae5c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daeb74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daf124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00daf6d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dafc84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db0234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db07e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db0d94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db1344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db18f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db1ea4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db2454 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db2a04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db2fb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db3564 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db3b14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db40c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db4674 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db4c24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db51d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db5784 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db5d34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db62e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db6894 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db6e44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db73f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db79a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db7f54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db8504 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db8ab4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db9064 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db9614 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00db9bc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dba174 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dba724 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbacd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbb284 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbb834 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbbde4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbc394 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbc944 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbcef4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbd4a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbda54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbe004 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbe5b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbeb64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbf114 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbf6c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dbfc74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc0224 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc07d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc0d84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc1334 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc18e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc1e94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc2444 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc29f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc2fa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc3554 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc3b04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc40b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc4664 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc4c14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc51c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc5774 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc5d24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc62d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc6884 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc6e34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc73e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc7994 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc7f44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc84f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc8aa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc9054 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc9604 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dc9bb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dca164 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dca714 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcacc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcb274 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcb824 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcbdd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcc384 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcc934 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dccee4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcd494 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcda44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcdff4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dce5a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dceb54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcf104 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcf6b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dcfc64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd0214 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd07c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd0d74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd1324 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd18d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd1e84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd2434 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd29e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd2f94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd3544 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd3af4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd40a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd4654 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd4c04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd51b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd5764 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd5d14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd62c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd6874 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd6e24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd73d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd7984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd7f34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd84e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd8a94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd9044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd95f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dd9ba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dda154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dda704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddacb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddb264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddb814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddbdc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddc374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddc924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddced4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddd484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddda34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dddfe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dde594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddeb44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddf0f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddf6a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ddfc54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de0204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de07b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de0d64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de1314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de18c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de1e74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de2424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de29d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de2f84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de3534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de3ae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de4094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de4644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de4bf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de51a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de5754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de5d04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de62b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de6864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de6e14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de73c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de7974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de7f24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de84d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de8a84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de9034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de95e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00de9b94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dea144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dea6f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00deaca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00deb254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00deb804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00debdb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dec364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dec914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00decec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ded474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00deda24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dedfd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dee584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00deeb34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00def0e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00def694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00defc44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df01f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df07a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df0d54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df1304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df18b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df1e64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df2414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df29c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df2f74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df3524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df3ad4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df4084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df4634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df4be4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df5194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df5744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df5cf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df62a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df6854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df6e04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df73b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df7964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df7f14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df84c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df8a74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df9024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df95d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00df9b84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfa134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfa6e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfac94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfb244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfb7f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfbda4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfc354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfc904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfceb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfd464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfda14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfdfc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfe574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dfeb24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dff0d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dff684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00dffc34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e001e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e00794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e00d44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e012f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e018a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e01e54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e02404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e029b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e02f64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e03514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e03ac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e04074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e04624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e04bd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e05184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e05734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e05ce4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e06294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e06844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e06df4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e073a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e07954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e07f04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e084b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e08a64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e09014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e095c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e09b74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0a124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0a6d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0ac84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0b234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0b7e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0bd94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0c344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0c8f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0cea4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0d454 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0da04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0dfb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0e564 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0eb14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0f0c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0f674 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e0fc24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e101d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e10784 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e10d34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e112e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e11894 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e11e44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e123f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e129a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e12f54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e13504 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e13ab4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e14064 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e14614 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e14bc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e15174 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e15724 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e15cd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e16284 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e16834 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e16de4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e17394 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e17944 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e17ef4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e184a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e18a54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e19004 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e195b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e19b64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1a114 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1a6c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1ac74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1b224 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1b7d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1bd84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1c334 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1c8e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1ce94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1d444 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1d9f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1dfa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1e554 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1eb04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1f0b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1f664 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e1fc14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e201c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e20774 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e20d24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e212d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e21884 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e21e34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e223e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e22994 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e22f44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e234f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e23aa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e24054 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e24604 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e24bb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e25164 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e25714 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e25cc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e26274 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e26824 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e26dd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e27384 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e27934 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e27ee4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e28494 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e28a44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e28ff4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e295a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e29b54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2a104 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2a6b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2ac64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2b214 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2b7c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2bd74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2c324 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2c8d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2ce84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2d434 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2d9e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2df94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2e544 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2eaf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2f0a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2f654 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e2fc04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e301b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e30764 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e30d14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e312c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e31874 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e31e24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e323d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e32984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e32f34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e334e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e33a94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e34044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e345f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e34ba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e35154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e35704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e35cb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e36264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e36814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e36dc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e37374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e37924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e37ed4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e38484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e38a34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e38fe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e39594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e39b44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3a0f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3a6a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3ac54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3b204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3b7b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3bd64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3c314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3c8c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3ce74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3d424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3d9d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3df84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3e534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3eae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3f094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3f644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e3fbf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e401a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e40754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e40d04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e412b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e41864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e41e14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e423c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e42974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e42f24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e434d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e43a84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e44034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e445e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e44b94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e45144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e456f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e45ca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e46254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e46804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e46db4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e47364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e47914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e47ec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e48474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e48a24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e48fd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e49584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e49b34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4a0e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4a694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4ac44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4b1f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4b7a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4bd54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4c304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4c8b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4ce64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4d414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4d9c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4df74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4e524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4ead4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4f084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4f634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e4fbe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e50194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e50744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e50cf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e512a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e51854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e51e04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e523b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e52964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e52f14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e534c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e53a74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e54024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e545d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e54b84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e55134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e556e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e55c94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e56244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e567f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e56da4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e57354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e57904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e57eb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e58464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e58a14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e58fc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e59574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e59b24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5a0d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5a684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5ac34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5b1e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5b794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5bd44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5c2f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5c8a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5ce54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5d404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5d9b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5df64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5e514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5eac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5f074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5f624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e5fbd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e60184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e60734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e60ce4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e61294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e61844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e61df4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e623a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e62954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e62f04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e634b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e63a64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e64014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e645c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e64b74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e65124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e656d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e65c84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e66234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e667e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e66d94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e67344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e678f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e67ea4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e68454 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e68a04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e68fb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e69564 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e69b14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6a0c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6a674 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6ac24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6b1d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6b784 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6bd34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6c2e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6c894 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6ce44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6d3f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6d9a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6df54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6e504 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6eab4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6f064 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6f614 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e6fbc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e70174 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e70724 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e70cd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e71284 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e71834 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e71de4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e72394 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e72944 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e72ef4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e734a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e73a54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e74004 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e745b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e74b64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e75114 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e756c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e75c74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e76224 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e767d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e76d84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e77334 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e778e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e77e94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e78444 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e789f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e78fa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e79554 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e79b04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7a0b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7a664 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7ac14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7b1c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7b774 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7bd24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7c2d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7c884 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7ce34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7d3e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7d994 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7df44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7e4f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7eaa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7f054 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7f604 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e7fbb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e80164 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e80714 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e80cc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e81274 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e81824 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e81dd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e82384 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e82934 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e82ee4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e83494 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e83a44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e83ff4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e845a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e84b54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e85104 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e856b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e85c64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e86214 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e867c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e86d74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e87324 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e878d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e87e84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e88434 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e889e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e88f94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e89544 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e89af4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8a0a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8a654 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8ac04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8b1b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8b764 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8bd14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8c2c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8c874 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8ce24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8d3d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8d984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8df34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8e4e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8ea94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8f044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8f5f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e8fba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e90154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e90704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e90cb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e91264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e91814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e91dc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e92374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e92924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e92ed4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e93484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e93a34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e93fe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e94594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e94b44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e950f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e956a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e95c54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e96204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e967b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e96d64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e97314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e978c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e97e74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e98424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e989d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e98f84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e99534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e99ae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9a094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9a644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9abf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9b1a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9b754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9bd04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9c2b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9c864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9ce14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9d3c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9d974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9df24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9e4d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9ea84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9f034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9f5e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00e9fb94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea0144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea06f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea0ca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea1254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea1804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea1db4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea2364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea2914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea2ec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea3474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea3a24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea3fd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea4584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea4b34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea50e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea5694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea5c44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea61f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea67a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea6d54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea7304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea78b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea7e64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea8414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea89c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea8f74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea9524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ea9ad4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaa084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaa634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaabe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eab194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eab744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eabcf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eac2a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eac854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eace04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ead3b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ead964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eadf14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eae4c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaea74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaf024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eaf5d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eafb84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb0134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb06e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb0c94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb1244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb17f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb1da4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb2354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb2904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb2eb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb3464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb3a14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb3fc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb4574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb4b24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb50d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb5684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb5c34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb61e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb6794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb6d44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb72f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb78a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb7e54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb8404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb89b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb8f64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb9514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eb9ac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eba074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eba624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebabd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebb184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebb734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebbce4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebc294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebc844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebcdf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebd3a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebd954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebdf04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebe4b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebea64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebf014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebf5c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ebfb74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec0124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec06d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec0c84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec1234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec17e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec1d94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec2344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec28f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec2ea4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec3454 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec3a04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec3fb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec4564 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec4b14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec50c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec5674 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec5c24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec61d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec6784 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec6d34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec72e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec7894 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec7e44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec83f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec89a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec8f54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec9504 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ec9ab4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eca064 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eca614 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecabc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecb174 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecb724 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecbcd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecc284 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecc834 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eccde4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecd394 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecd944 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecdef4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ece4a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecea54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecf004 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecf5b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ecfb64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed0114 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed06c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed0c74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed1224 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed17d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed1d84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed2334 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed28e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed2e94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed3444 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed39f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed3fa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed4554 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed4b04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed50b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed5664 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed5c14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed61c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed6774 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed6d24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed72d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed7884 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed7e34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed83e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed8994 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed8f44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed94f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ed9aa4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eda054 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eda604 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edabb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edb164 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edb714 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edbcc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edc274 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edc824 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edcdd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edd384 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edd934 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eddee4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ede494 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edea44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edeff4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edf5a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00edfb54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee0104 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee06b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee0c64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee1214 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee17c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee1d74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee2324 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee28d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee2e84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee3434 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee39e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee3f94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee4544 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee4af4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee50a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee5654 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee5c04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee61b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee6764 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee6d14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee72c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee7874 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee7e24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee83d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee8984 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee8f34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee94e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ee9a94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eea044 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eea5f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeaba4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeb154 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeb704 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eebcb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eec264 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eec814 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eecdc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eed374 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eed924 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeded4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eee484 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeea34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eeefe4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eef594 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eefb44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef00f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef06a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef0c54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef1204 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef17b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef1d64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef2314 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef28c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef2e74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef3424 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef39d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef3f84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef4534 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef4ae4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef5094 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef5644 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef5bf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef61a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef6754 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef6d04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef72b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef7864 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef7e14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef83c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef8974 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef8f24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef94d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00ef9a84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efa034 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efa5e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efab94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efb144 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efb6f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efbca4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efc254 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efc804 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efcdb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efd364 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efd914 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efdec4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efe474 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efea24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00efefd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00eff584 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00effb34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f000e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f00694 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f00c44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f011f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f017a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f01d54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f02304 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f028b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f02e64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f03414 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f039c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f03f74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f04524 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f04ad4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f05084 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f05634 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f05be4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f06194 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f06744 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f06cf4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f072a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f07854 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f07e04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f083b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f08964 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f08f14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f094c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f09a74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0a024 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0a5d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0ab84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0b134 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0b6e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0bc94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0c244 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0c7f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0cda4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0d354 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0d904 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0deb4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0e464 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0ea14 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0efc4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0f574 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f0fb24 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f100d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f10684 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f10c34 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f111e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f11794 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f11d44 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f122f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f128a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f12e54 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f13404 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f139b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f13f64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f14514 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f14ac4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f15074 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f15624 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f15bd4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f16184 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f16734 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f16ce4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f17294 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f17844 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f17df4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f183a4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f18954 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f18f04 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f194b4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f19a64 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1a014 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1a5c4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1ab74 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1b124 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1b6d4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1bc84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1c234 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1c7e4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1cd94 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1d344 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1d8f4 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	00f1fc84 -> ntdll.dll:776d9d70 mov ecx,[esp+0x4]
+	5a5a5a5a -> [INVALID]:5a5a5a5a Unable to disassemble at 5a5a5a5a
+	ffffffff -> [INVALID]:ffffffff Unable to disassemble at ffffffff
+

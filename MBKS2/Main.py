@@ -7,7 +7,6 @@ import FuzzingLib
 
 from sys import argv, exc_info
 from shutil import copyfile
-from random import randint
 
 from pydbg import *
 from pydbg.defines import * 
@@ -61,8 +60,7 @@ class ProcCrashTester:
         to result_dir_path\\x where directory x will be created 
         and will contain config file from conf_path and dump """
 
-        r = randint(ord('A'), ord('Z')) + randint(ord('a'), ord('z'))
-        dir_name = "Crash at " + time.strftime("%H-%M-%S %d.%m.%Y") + ' ' + str(r)
+        dir_name = "Crash at " + time.strftime("%H-%M-%S %d.%m.%Y")
         path = self.crashes_dir + '\\' + dir_name
         os.mkdir(path)
      
@@ -103,7 +101,8 @@ class ProcCrashTester:
         # terminate process and signal that program has crashed
         self.crashed = True
         self.dbg.terminate_process() 
-        
+
+        time.sleep(1)
         return DBG_EXCEPTION_NOT_HANDLED 
     
     def check_exit_code(self, dbg):
@@ -290,8 +289,8 @@ def print_usage():
     print('--help     - usage\n')
     print('--terminal - run fuzzer in manual mode\n')
     
-    print('example: script.py --exe=1.exe --conf=config_1')
-    print('--cdir=D:\workflow --wait=5 --skip=300\n')
+    print('example: script.py --wait=10 --conf=config_23 --cdir=samples --exe=vuln23.exe --terminal')
+    print('example: script.py --conf=config_23 --cdir=samples --exe=vuln23.exe --skip=300')
 
 
 if __name__ == "__main__":

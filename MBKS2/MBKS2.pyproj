@@ -13,7 +13,7 @@
     <RootNamespace>MBKS2</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>--wait=10 --conf=config_23 --cdir=samples --exe="vuln23.exe" --terminal</CommandLineArguments>
+    <CommandLineArguments>--wait=10 --conf=config_23 --cdir=samples --exe="vuln23.exe"</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <InterpreterId>Global|PythonCore|2.7-32</InterpreterId>
   </PropertyGroup>
